@@ -2,8 +2,8 @@
 //  MEAppDelegate.h
 //  Time Calculator
 //
-//  Created by Matthew Edmonds on 9/22/13.
-//  Copyright (c) 2013 Matthew Edmonds. All rights reserved.
+//  Created by Matthew M. Edmonds on 4/4/13.
+//  Copyright (c) 2013 Matthew M. Edmonds. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

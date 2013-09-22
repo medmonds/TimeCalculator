@@ -11,8 +11,8 @@
 		C9AE74BF17EF7AF9006923FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9AE74BD17EF7AF9006923FE /* InfoPlist.strings */; };
 		C9AE74C117EF7AF9006923FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AE74C017EF7AF9006923FE /* main.m */; };
 		C9AE74C517EF7AF9006923FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9AE74C317EF7AF9006923FE /* Credits.rtf */; };
-		C9AE74C817EF7AF9006923FE /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AE74C717EF7AF9006923FE /* MEAppDelegate.m */; };
-		C9AE74CB17EF7AF9006923FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AE74C917EF7AF9006923FE /* MainMenu.xib */; };
+		C9AE74D417EF7B43006923FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AE74D117EF7B43006923FE /* MainMenu.xib */; };
+		C9AE74D517EF7B43006923FE /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AE74D317EF7B43006923FE /* MEAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +26,9 @@
 		C9AE74C017EF7AF9006923FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9AE74C217EF7AF9006923FE /* Time Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		C9AE74C417EF7AF9006923FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C9AE74C617EF7AF9006923FE /* MEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
-		C9AE74C717EF7AF9006923FE /* MEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
-		C9AE74CA17EF7AF9006923FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9AE74D117EF7B43006923FE /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C9AE74D217EF7B43006923FE /* MEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
+		C9AE74D317EF7B43006923FE /* MEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 		C9AE74BA17EF7AF9006923FE /* Time Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				C9AE74C617EF7AF9006923FE /* MEAppDelegate.h */,
-				C9AE74C717EF7AF9006923FE /* MEAppDelegate.m */,
-				C9AE74C917EF7AF9006923FE /* MainMenu.xib */,
+				C9AE74D217EF7B43006923FE /* MEAppDelegate.h */,
+				C9AE74D317EF7B43006923FE /* MEAppDelegate.m */,
+				C9AE74D117EF7B43006923FE /* MainMenu.xib */,
 				C9AE74BB17EF7AF9006923FE /* Supporting Files */,
 			);
 			path = "Time Calculator";
@@ -156,7 +156,7 @@
 			files = (
 				C9AE74BF17EF7AF9006923FE /* InfoPlist.strings in Resources */,
 				C9AE74C517EF7AF9006923FE /* Credits.rtf in Resources */,
-				C9AE74CB17EF7AF9006923FE /* MainMenu.xib in Resources */,
+				C9AE74D417EF7B43006923FE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AE74C117EF7AF9006923FE /* main.m in Sources */,
-				C9AE74C817EF7AF9006923FE /* MEAppDelegate.m in Sources */,
+				C9AE74D517EF7B43006923FE /* MEAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				C9AE74C417EF7AF9006923FE /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		C9AE74C917EF7AF9006923FE /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9AE74CA17EF7AF9006923FE /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
